@@ -1,0 +1,68 @@
+.buttonClass
+{
+  margin-left:100px;
+  margin-top:100px;
+  width:100px;
+  height:100px;
+  background-color:blue;
+  padding: 12px 28px;
+  border-radius: 12px;
+}
+
+body 
+{
+  background-color: rgb(0,200,255,0.5);
+}
+
+.text
+{
+  font-size:50px;
+  font-family:cursive;
+  width:725px;
+  height:500px;
+  color:white;
+  background-image:linear-gradient(to bottom,
+                                  rgb(0,50,255,0.9),
+                                  rgb(0,200,255,0.5),
+                                  rgb(255,255,255));
+  outline-style: outset;
+  
+}
+.text2
+{
+  width:725px;
+  height:500px;
+
+}
+
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0,200,255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 10px;
+  z-index: 1;
+  font-family: cursive;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: cursive;
+}
+</style>
+
+<div class="dropdown">
+  <span>Want to know a fact?</span>
+  <div class="dropdown-content">
+    <p>Clouds are made out of mashed potatoes :D </p>
+  </div>
+</div>
+
